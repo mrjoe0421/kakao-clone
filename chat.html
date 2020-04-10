@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2e53302c86.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chat| Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar">
+        <span class="status-bar__clock">15:00</span>
+      </div>
+      <div class="status-bar">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">50%</span>
+        <i class="fas fa-battery-half"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <div class="header__back-btn">
+          <a href="index.html">
+            <i class="fas fa-arrow-left fa-2x"></i>
+          </a>
+        </div>
+        <h1 class="header__title">Best Friend</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header-icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <div class="header-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">Friday, April 10. 2020</span>
+        <li class="incoming message message">
+          <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
+          <span class="message__author">JOE</span>
+          <div class="message__content">
+            <div class="message bubble">
+              Keep Going you can do it
+            </div>
+          </div>
+          <span class="message__timestamp">20:04</span>
+        </li>
+        <li class="incoming message message">
+          <span class="message__timestamp">20:05</span>
+          <div class="message__content">
+            <div class="message bubble">
+              Yes come on Joe
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-smile"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
