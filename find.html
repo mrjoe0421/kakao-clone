@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/2e53302c86.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Find | Kakao Clone</title>
   </head>
   <body>
@@ -38,38 +39,40 @@
     </header>
     <main class="find">
       <header class="find__header">
-        <li class="find__header-btn header-btn">
-          <span class="header-btn__icon">
-            <i class="fas fa-qrcode fa-3x"></i>
-          </span>
-          <span class="header-btn__title">
-            QR code
-          </span>
-        </li>
-        <li class="find__header-btn header-btn">
-          <span class="header-btn__icon">
-            <i class="fas fa-user-plus fa-3x"></i>
-          </span>
-          <span class="header-btn__title">
-            Add by Contacts
-          </span>
-        </li>
-        <li class="find__header-btn header-btn">
-          <span class="header-btn__icon">
-            <i class="fas fa-fingerprint fa-3x"></i>
-          </span>
-          <span class="header-btn__title">
-            Add by ID
-          </span>
-        </li>
-        <li class="find__header-btn header-btn">
-          <span class="header-btn__icon">
-            <i class="far fa-envelope fa-3x"></i>
-          </span>
-          <span class="header-btn__title">
-            Invite
-          </span>
-        </li>
+        <ul class="find__header-list">
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-qrcode fa-3x"></i>
+            </span>
+            <span class="header-btn__title">
+              QR code
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-user-plus fa-3x"></i>
+            </span>
+            <span class="header-btn__title">
+              Add by Contacts
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-fingerprint fa-3x"></i>
+            </span>
+            <span class="header-btn__title">
+              Add by ID
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="far fa-envelope fa-3x"></i>
+            </span>
+            <span class="header-btn__title">
+              Invite
+            </span>
+          </li>
+        </ul>
       </header>
       <ul class="find__rocommended">
         <h5 class="find__title">
@@ -77,7 +80,7 @@
         </h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend-name">
                 Yun Junghun
